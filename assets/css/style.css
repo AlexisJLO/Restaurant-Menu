@@ -1,0 +1,33 @@
+main {
+    display: flex;
+    --font-family: 'National 2 Condensed', 'Imperial';
+    align-items: center;
+    justify-content: center;
+    padding: 9vw;
+    max-width: 100%; 
+}
+
+.menuCategory {
+    display: flex; 
+    justify-content: space-between;
+    gap: 2%; 
+    height: auto; 
+}
+
+.menuCategory button {
+    flex: 1; 
+    max-width: 100%; 
+    box-shadow: rgba(140, 75, 101, 0.24) 2px 4px 4px 2px;
+    background-color: rgb(255, 255, 255);
+    border-color: white;
+}
+
+
+.menuCategory button img {
+    max-width: 100%;
+}
+
+.menuCategory button h4 {
+    text-align: center;
+    font-family: var(--font-family);
+}
