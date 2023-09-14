@@ -1,12 +1,12 @@
 header {
     display: flex;
     align-items: center;
-    max-width: 90%;
+    max-width: 100%;
     height: 100%;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding: 20px 60px 30px 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    border-bottom: 2px solid #ccc;
 }
 header img {
     flex-grow: 1;
@@ -71,18 +71,18 @@ body h2 {
 .menuCategory {
     display: flex;
     flex-wrap: wrap; 
-    justify-content: space-between;
+    justify-content: center;
     gap: 2%;
     height: auto;
 }
 
 .menuCategory button {
     flex-basis: calc(25% - 2%); 
-    max-width: calc(25% - 2%);
-    box-shadow: rgba(140, 75, 101, 0.24) 2px 4px 4px 2px;
+    max-width: calc(25% - 6%);
+    box-shadow: rgba(140, 75, 101, 0.24) 1px 1px 10px 4px ;
     background-color: rgb(255, 255, 255);
-    border-color: white;
     margin-bottom: 20px;
+    border: none;
 }
 
 .menuCategory button:hover {
@@ -144,4 +144,14 @@ body h2 {
     color: black;
     text-decoration: none;
     cursor: pointer;
+  }
+  footer {
+    max-width: 100%;
+    background-color: #202124;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    color: #ccc;
+    justify-content: center;
+    align-items: center;
   }
